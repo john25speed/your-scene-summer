@@ -2,3 +2,4 @@ node_modules/
 _*.py
 _*.json
 .wrangler/
+dima_tg/
