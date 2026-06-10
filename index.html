@@ -491,7 +491,7 @@ lead.addEventListener('submit',async(e)=>{
   const btn=lead.querySelector('button[type=submit]');
   btn.disabled=true; const old=btn.innerHTML; btn.textContent='Отправляем…';
   try{
-    const r=await fetch('https://your-scene-form.evgeniysoshenko.workers.dev',{
+    const r=await fetch('https://193-29-225-72.sslip.io:8788',{
       method:'POST', headers:{'Content-Type':'application/json'},
       body:JSON.stringify({name, phone:phone.value, source:'summer'})
     });
